@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: rgb(81, 170, 33);
+}
+header {
+background-color: rgb(128, 255, 0);
+display: flex;
+justify-content: space-between;
+text-decoration: underline;
+}
+div {
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+img {
+    margin:15px ;
+}
+.photo {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+border: 3px solid rgb(255, 153, 0);
+}
+h1 {
+    color: #d47911;
+}
+.about-Makc {
+    background-color: rgb(76, 76, 221);
+}
+.about-hobby {
+    background-color: rgb(0, 234, 255); 
+}
+.about-family {
+    background-color: rgb(42, 154, 239);  
+}
+p{
+    font-size: 20px;
+}
+footer {
+    color: white;
+    background-color: rgb(19, 19, 66);
+}
+
