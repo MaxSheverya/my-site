@@ -2,8 +2,12 @@ html {
     height: 100%;
     width: 100%;
 }
-body {
-    background-color: rgb(81, 170, 33);
+h1,h2,p {
+    margin: 0;
+    padding-top: 15px;
+}
+body {  
+    margin: 0;
 }
 header {
 background-color: rgb(128, 255, 0);
@@ -21,7 +25,8 @@ ul {
     list-style: none;
 }
 img {
-    margin:15px ;
+    margin:15px ; 
+    border: 3px solid #11d445;
 }
 .photo {
 width: 70px;
@@ -29,23 +34,33 @@ height: 70px;
 border-radius: 50%;
 border: 3px solid rgb(255, 153, 0);
 }
-h1 {
+h1,h2 {
     color: #d47911;
+    font-size: 50px;
 }
 .about-Makc {
     background-color: rgb(76, 76, 221);
+    text-align: center; 
+    color: aquamarine;
 }
 .about-hobby {
-    background-color: rgb(0, 234, 255); 
+    background-color: rgb(0, 234, 255);
+    text-align: center;  
+    color: rgb(9, 72, 51);
 }
 .about-family {
-    background-color: rgb(42, 154, 239);  
+    background-color: rgb(42, 154, 239);
+    text-align: center; 
+    color: aquamarine;
 }
 p{
-    font-size: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 footer {
     color: white;
     background-color: rgb(19, 19, 66);
+    text-align: center;
+    padding-top: 15px;
 }
 
